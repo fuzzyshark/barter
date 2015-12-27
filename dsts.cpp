@@ -10,11 +10,8 @@ using namespace std;
 
 int main()
 {
-
-
-		SYSTEM_POWER_STATUS derp; 
+	SYSTEM_POWER_STATUS derp; 
 	GetSystemPowerStatus(&derp);
-
 
 	int life = derp.BatteryLifePercent;
 	//if(derp.ACLineStatus>=2)
